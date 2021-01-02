@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dev Chew Yi Xin Portfolio Website</title>
+        
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+
+        <!-- Update these with your own font -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../static/css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="/"><img src= "../static/img/devchew.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class = "nav__link"><i class="fas fa-home"> Home</i></a> </li>
+                    <li class="nav__item"><a href="#services" class = "nav__link"><i class="fas fa-code"> Interests</i></a> </li>
+                    <li class="nav__item"><a href="#about" class = "nav__link"><i class="fas fa-user"> About</i></a> </li>
+                    <li class="nav__item"><a href="#work" class = "nav__link"><i class="fas fa-folder-open"> Showcase</i></a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Chew Yi Xin</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Aspiring Developer</p>
+            <img src="../static/img/portraitpic-01.jpg"  alt="a picture of me smiling" class="intro__img">
+
+        </section>
+
+        
+
+        <!-- My services, can change to fit whatever I want it to be -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Interests</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Full-Stack Development, FinTech</h3>
+                    <p>
+                        I am able to code with Python, CSS, and HTML at the introductory level, with some 
+                        knowledge in Python: Pandas as well which I picked up from taking up external courses on my own time.
+                        I will be picking up SQL, Java and JS in the near future. I have a particularly keen interest in 
+                        the development and software engineering side of things. I also have a slight interest in FinTech, as
+                        the I find the world of finance deeply complex and intriguing.
+                    </p>
+                    <p>
+                        I am a member of SMU .Hack, a student-led interest group related to tech, and I am 
+                        excited to learn more, and hopefully offer something to others as well.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Non-Academic Interests</h3>
+                    <p>
+                        I also have an interest in sports in general and find it an effective way for me to stay active
+                        and have fun at the same time. In my free time, I go to the gym occasionally and also practice Judo.
+                        Currently, I am a member of SMU Judo.
+                    </p>
+                    <p>
+                        Aside from sports and fitness, I also enjoy spending quality time with my friends, playing Mahjong, and 
+                        having the occasional day or two to myself to indulge in netflix shows and TV series. Recently, 
+                        I have also developed an interest in photography and editing, something which I do on my
+                        own free time. 
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Showcase</a>
+        </section>
+
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class= "section__subtitle section__subtitle--about">Tech and Finance enthusiast, undergraduate from the Singapore Management University</p>
+
+            <div class="about-me__body">
+                <p>Hey there! I am Yi Xin. Currently, I am studying in Singapore Management University, pursuing a degree
+                    in Information Systems. I have a keen interest in both Tech and Finance, and would like to pursue a career
+                    in either of these two industries. 
+                </p>
+                <p>In my free time, I enjoy doing both team and individual sports, watching videos, and spending quality 
+                    time with my friends. Occasionally, I do Judo as well. I also have a slight interest in photography and 
+                    editing photos too, but nothing too serious.
+                </p>
+                <p>This is the first project I've worked on so I do not have much to showcase. The images attached below are just some photos
+                    I took in the past and edited in my free time. I will update this page again once I have more projects in 
+                    the future. For now, do take a look at the photos below. Thanks for taking a look at my little project!  
+                </p>
+
+            </div>
+            
+            <img src="../static/img/portraitpic-02.jpg" width="265" height="340" alt="a picture of me smiling 2" class= "about-me__img">
+
+        </section>
+
+
+        <!-- My Work or any other heading, changeable -->
+        <section class="my-work" id="work">
+            <h2 class="section--title">Showcase</h2>
+            <p class="section__subtitle">A selection of my range of photos</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="../templates/portfolio-item-1.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-01.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="../templates/portfolio-item-2.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-02.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="../templates/portfolio-item-3.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-03.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="../templates/portfolio-item-4.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-04.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="../templates/portfolio-item-5.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-05.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 06 -->
+                <a href="../templates/portfolio-item-6.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-06.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 07 -->
+                <a href="../templates/portfolio-item-7.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-07.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 08 -->
+                <a href="../templates/portfolio-item-8.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-08.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 09 -->
+                <a href="../templates/portfolio-item-9.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-09.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 10 -->
+                <a href="../templates/portfolio-item-10.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-10.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 11 -->
+                <a href="../templates/portfolio-item-11.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-11.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 12 -->
+                <a href="../templates/portfolio-item-12.html" class="portfolio__item">
+                    <img src="../static/img/portfolio-12.jpg" alt="" width="" height="" class="portfolio__img">
+                </a>
+
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:chewyixin1999@gmail.com" class="footer__link">chewyixin1999@gmail.com</a>
+            <ul class="social-list">
+                <!-- insert social links here -->
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://instagram.com/chewyixinn">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/chewyixin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/chewyixin99">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/chewyixin99"> 
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../static/js/index.js"></script>
+
+
+    </body>
+</html>
