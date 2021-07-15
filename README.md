@@ -1,6 +1,11 @@
 # portfolio-introduction
 first project, HTML, CSS, JS, flask. Mostly tutorial-taught
 
+16 July 2021
+- Added basic comment feature with reply functionality
+- Updated navbar and CSS styles
+- Updated HTML templates to PHP templates
+- Added new 'projects' section in the homepage
 
 Demo
 -------------------
