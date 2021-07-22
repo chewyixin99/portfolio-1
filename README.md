@@ -8,6 +8,7 @@
 - Updated HTML templates to PHP templates
 - Added new 'projects' section in the homepage
 - Removed the use of Python Flask
+- Site goes live at http://chew-yixin.epizy.com/
 
 Demo
 -------------------
